@@ -1,4 +1,4 @@
-module github.com/awesome-gocui/gocui
+module github.com/GoryMoon/gocui
 
 go 1.13
 

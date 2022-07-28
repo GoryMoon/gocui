@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/awesome-gocui/gocui"
+	"github.com/GoryMoon/gocui"
 )
 
 var (

@@ -8,7 +8,7 @@ import (
 	"errors"
 	"log"
 
-	"github.com/awesome-gocui/gocui"
+	"github.com/GoryMoon/gocui"
 )
 
 type Column struct {

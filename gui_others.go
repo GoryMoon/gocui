@@ -2,6 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
+//go:build !windows
 // +build !windows
 
 package gocui
@@ -20,7 +21,7 @@ func (g *Gui) getTermWindowSize() (int, int, error) {
 	var sz struct {
 		rows uint16
 		cols uint16
-		_    [2]uint16 // to match underlying syscall; see https://github.com/awesome-gocui/gocui/issues/33
+		_    [2]uint16 // to match underlying syscall; see https://github.com/GoryMoon/gocui/issues/33
 	}
 
 	var termw, termh int

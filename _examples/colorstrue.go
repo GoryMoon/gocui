@@ -10,7 +10,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/awesome-gocui/gocui"
+	"github.com/GoryMoon/gocui"
 	colorful "github.com/lucasb-eyer/go-colorful"
 )
 

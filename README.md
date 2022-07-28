@@ -1,8 +1,8 @@
 # GOCUI - Go Console User Interface
 
-[![github actions](https://github.com/awesome-gocui/gocui/actions/workflows/go.yml/badge.svg)](https://github.com/awesome-gocui/gocui/actions)
-[![Go Report Card](https://goreportcard.com/badge/github.com/awesome-gocui/gocui)](https://goreportcard.com/report/github.com/awesome-gocui/gocui)
-[![GoDoc](https://godoc.org/github.com/awesome-gocui/gocui?status.svg)](https://godoc.org/github.com/awesome-gocui/gocui)
+[![github actions](https://github.com/GoryMoon/gocui/actions/workflows/go.yml/badge.svg)](https://github.com/GoryMoon/gocui/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/GoryMoon/gocui)](https://goreportcard.com/report/github.com/GoryMoon/gocui)
+[![GoDoc](https://godoc.org/github.com/GoryMoon/gocui?status.svg)](https://godoc.org/github.com/GoryMoon/gocui)
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/tag/awesome-gocui/gocui.svg)
 
 Minimalist Go package aimed at creating Console User Interfaces.
@@ -43,7 +43,7 @@ For information about this org see: [awesome-gocui/about](https://github.com/awe
 Execute:
 
 ```
-$ go get github.com/awesome-gocui/gocui
+$ go get github.com/GoryMoon/gocui
 ```
 
 ## Documentation
@@ -51,10 +51,10 @@ $ go get github.com/awesome-gocui/gocui
 Execute:
 
 ```
-$ go doc github.com/awesome-gocui/gocui
+$ go doc github.com/GoryMoon/gocui
 ```
 
-Or visit [godoc.org](https://godoc.org/github.com/awesome-gocui/gocui) to read it
+Or visit [godoc.org](https://godoc.org/github.com/GoryMoon/gocui) to read it
 online.
 
 ## Example
@@ -68,7 +68,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/awesome-gocui/gocui"
+	"github.com/GoryMoon/gocui"
 )
 
 func main() {
