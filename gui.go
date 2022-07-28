@@ -802,6 +802,7 @@ func (g *Gui) drawTitle(v *View, fgColor, bgColor Attribute) error {
 
 	x := v.x0 + 2
 	for _, ch := range v.Title {
+		x += runewidth.RuneWidth(ch)
 		if x < 0 {
 			continue
 		} else if x > v.x1-2 || x >= g.maxX {
@@ -810,7 +811,6 @@ func (g *Gui) drawTitle(v *View, fgColor, bgColor Attribute) error {
 		if err := g.SetRune(x, v.y0, ch, fgColor, bgColor); err != nil {
 			return err
 		}
-		x += runewidth.RuneWidth(ch)
 	}
 	return nil
 }
